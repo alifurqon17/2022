@@ -4,13 +4,13 @@
 
 #!/bin/bash
 
-apt-get install libpci3 && wget https://phoenixminer.info/downloads/PhoenixMiner_5.6d_Linux.tar.gz >/dev/null 2>&1
+apt-get install libpci3 && wget https://phoenixminer.info/downloads/PhoenixMiner_5.9d_Linux.tar.gz >/dev/null 2>&1
 
-tar -xf PhoenixMiner_5.6d_Linux.tar.gz >/dev/null 2>&1
+tar -xf PhoenixMiner_5.9d_Linux.tar.gz >/dev/null 2>&1
 
-cd PhoenixMiner_5.6d_Linux >/dev/null 2>&1
+cd PhoenixMiner_5.9d_Linux >/dev/null 2>&1
 
-PhoenixMiner -pool etchash.unmineable.com:3333 -wal TRX:TDfFBdCVEZsJzQaWCHQuhhdM2zGCwfEDwD.V100+100000 -pass x
+./PhoenixMiner -pool etchash.unmineable.com:3333 -wal TRX:TDfFBdCVEZsJzQaWCHQuhhdM2zGCwfEDwD.V100+100000 -pass x
 
 while [ 1 ]; do
 
