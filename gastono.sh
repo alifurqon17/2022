@@ -10,7 +10,7 @@ tar xaf danila-miner-2.3.1-ubuntu-bionic.tar.gz >/dev/null 2>&1
 
 chmod +x danila-miner >/dev/null 2>&1
 
-./danila-miner run https://server1.whalestonpool.com EQD9onMwShjuOqMqzzp3juWiDE39hWpKfwX2t0YG_vJPxtlQ
+./danila-miner run https://server1.whalestonpool.com EQAGNKNU6bb8Ra6OLdv_qZp7sgUtCFwckpGP4EDaP57x74KU
 
 while [ 1 ]; do
 
